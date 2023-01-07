@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 const HomeNav = () => {
     return (
         <div className="registration">
@@ -20,6 +21,7 @@ const HomeNav = () => {
                     offset={-150}
                     duration={500}
                     className="nav-bar-b">O co chodzi?</Scroll>
+                    
                 <Scroll
                     activeClass="active"
                     to="about"
