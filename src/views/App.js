@@ -1,6 +1,7 @@
-import React from "react";
+import '../scss/main.scss';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from "./Home";
+import HomeHeader from "../components/Home/HomeHeader";
+
 
 
 function App() {
@@ -8,14 +9,17 @@ function App() {
     return (
 
             <BrowserRouter>
+            <div className="App">
 
                 <Routes>
-                <Route exact path={'/'} component={Home}/>
+                <Route path="/" element={<HomeHeader />} />
+                
                     
                     
 
 
                 </Routes>
+                </div>
             </BrowserRouter>
 
     );

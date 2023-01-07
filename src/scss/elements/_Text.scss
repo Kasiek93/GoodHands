@@ -1,0 +1,18 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    &-titleT{
+        font-family: $font-base;
+        font-size: 38px;
+        color: $color-primary;
+        margin-bottom: 25px;
+    }
+    &-decoration{
+        margin-bottom: 80px;
+    }
+}

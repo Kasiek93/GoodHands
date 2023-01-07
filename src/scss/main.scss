@@ -1,3 +1,18 @@
-@import "settings/reset";
-@import "settings/colors";
-@import "settings/fonts";
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+@import './elements/Buttons';
+@import './elements/HomeHeader';
+@import './elements/Text';
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      font-family: $font-base;
+  }

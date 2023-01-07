@@ -1,0 +1,22 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+
+.home{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+        &-img{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            &-img{
+                width: 100%;
+            }
+        }
+        &-right{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+    }
+}

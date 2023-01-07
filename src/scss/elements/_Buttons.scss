@@ -1,0 +1,17 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+ 
+ .buttons{
+     display: flex;
+    &-b{
+        padding: 13px 90px;
+        font-family: $font-base;
+        color: $color-secondary;
+        font-size: 36px;
+        background-color: $color-background;
+        border: 0.75px solid $color-primary;
+        margin-left: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
