@@ -20,8 +20,8 @@ const Login = () => {
                 </div>
             </form>
             <div className="login-buttons">
-                <Link to="/rejestracja" className="login-buttons-login">Założ konto</Link>
-                <button className="login-buttons-login">Zaloguj się</button>
+                <Link to="/rejestracja" className="login-buttons-login1">Założ konto</Link>
+                <button className="login-buttons-login2">Zaloguj się</button>
             </div>
         </section>
     )

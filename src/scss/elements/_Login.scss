@@ -2,8 +2,45 @@
 @import '../settings/fonts';
 
 
-.login {
-    margin: 0;
-  }
+.login-title {
+  text-align: center;
+  margin-top:120px;
+  font-size:40px;
+}
+ img{
+  margin-top:45px;
+ }
 
+ .login-form{
+ text-align:center;
+ 
+}
+
+.login-form-first-label{
+  font-size:18px;
+}
+
+.login-form-second-label{
+  font-size:18px;
+}
   
+
+
+.login-buttons-login1{
+  font-family: $font-base;
+  margin-left:500px;
+  padding-right: 300px;
+  text-decoration: none;
+  color:$color-secondary;
+  
+}
+.login-buttons-login2{
+ padding:13px 20px;
+  font-family: $font-base;
+  border: 0.75px solid $color-secondary;
+  background-color: $color-background;
+  color:$color-secondary;
+  margin-top:30px;
+
+ 
+  }

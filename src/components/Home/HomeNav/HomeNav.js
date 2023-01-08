@@ -9,7 +9,7 @@ const HomeNav = () => {
         <div className="registration">
             <nav className="registration-main">
                 <Link to="/logowanie" className="registration-main-first">Zaloguj</Link>
-                <Link to="/rejestracja" className="registration-main-second">Założ konto</Link>
+                <Link to="/rejestracja" className="registration-main-second">Załóż konto</Link>
             </nav>
 
             <ul className="nav-bar">

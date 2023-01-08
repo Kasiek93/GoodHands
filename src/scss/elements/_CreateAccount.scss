@@ -1,0 +1,28 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+.login-form{
+    text-align:center;
+   }
+
+.login-form-third-label{
+    font-size:18px;
+  }
+    
+  .login-buttons-login{
+    font-family: $font-base;
+    margin-left:500px;
+    padding-right: 300px;
+    text-decoration: none;
+    color:$color-secondary;
+    
+  }
+  .login-buttons-register{
+   padding:13px 20px;
+    font-family: $font-base;
+    border: 0.75px solid $color-secondary;
+    background-color: $color-background;
+    color:$color-secondary;
+  margin-top:30px;
+   
+    }

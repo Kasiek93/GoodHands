@@ -7,7 +7,7 @@ const CreateAccount = () => {
     return (
         <section className="login">
             <div className="login-title">
-                <h3 className="login-title-h3">Założ konto</h3>
+                <h3 className="login-title-h3">Załóż konto</h3>
                 <img src={Decoration} alt="Decoration"></img>
             </div>
             <form className="login-form">
