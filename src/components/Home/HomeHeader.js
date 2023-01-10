@@ -2,6 +2,7 @@ import React from 'react';
 import HomeHeroImage from '../../assets/HomeHeroImage.jpg';
 import Decoration from '../../assets/Decoration.svg';
 import Buttons from '../Buttons/Buttons';
+import HomeAboutUs from './HomeAboutUs/HomeAboutUs';
 
 
 
@@ -18,7 +19,7 @@ const HomeHeader = () => {
                     <Buttons />
                 </div>
             </div>
-            
+            <HomeAboutUs />
 
         </section >
     )

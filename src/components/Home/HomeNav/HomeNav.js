@@ -1,7 +1,14 @@
 import { Link as Scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
-
+const options = {
+    duration: 500,
+    spy: true,
+    offset: 150,
+    smooth: true,
+    activeClass: "active",
+    className: "nav-bar-b"
+}
 
 
 const HomeNav = () => {
@@ -15,20 +22,16 @@ const HomeNav = () => {
             <ul className="nav-bar">
                 <Link to="/" className="nav-bar-b">Start</Link>
                 <Scroll
-                    activeClass="active"
+               
                     to="start"
-                    spy={true}
-                    offset={-150}
-                    duration={500}
-                    className="nav-bar-b">O co chodzi?</Scroll>
+                    {...options}
+                    >O co chodzi?</Scroll>
                     
                 <Scroll
-                    activeClass="active"
+
                     to="about"
-                    spy={true}
-                    offset={-100}
-                    duration={500}
-                    className="nav-bar-b">O nas</Scroll>
+                    {...options}
+>O nas</Scroll>
                 <Scroll
                     activeClass="active"
                     to="fundation"

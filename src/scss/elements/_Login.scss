@@ -1,6 +1,19 @@
 @import '../settings/colors';
 @import '../settings/fonts';
 
+form {
+  background-color: $color-shadow;
+  padding: 20px;
+  max-width: 500px;
+
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .login-title {
   text-align: center;
@@ -28,7 +41,7 @@
 
 .login-buttons-login1{
   font-family: $font-base;
-  margin-left:500px;
+  margin-left:100px;
   padding-right: 300px;
   text-decoration: none;
   color:$color-secondary;
