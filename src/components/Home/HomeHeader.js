@@ -4,6 +4,7 @@ import decoration from '../../assets/decoration.svg';
 import Buttons from '../Buttons/Buttons';
 import HomeAboutUs from './HomeAboutUs/HomeAboutUs';
 import HomeThreeColumns from './HomeThreeColumns/HomeThreeColumns';
+import HomeFourSteps from './HomeFourSteps/HomeFourSteps';
 
 
 
@@ -21,7 +22,9 @@ const HomeHeader = () => {
                 </div> 
             </div>
             <HomeThreeColumns />
+            <HomeFourSteps />
             <HomeAboutUs />
+            
 
         </section >
     )

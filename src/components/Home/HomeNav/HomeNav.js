@@ -31,7 +31,7 @@ const HomeNav = () => {
 
                     to="about"
                     {...options}
->O nas</Scroll>
+                    >O nas</Scroll>
                 <Scroll
                     activeClass="active"
                     to="fundation"

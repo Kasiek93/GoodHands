@@ -1,0 +1,149 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+.steps{
+    margin-bottom: 80px;
+    width: 100%;
+
+    &-top{
+        text-align: center;
+        margin-bottom: 45px;
+        margin-top: 55px;
+
+        &-h2{
+            font-family: $font-base;
+            font-size: 38px;
+            color: $color-primary;
+            text-align: center;
+            margin-bottom: 39px;
+        }
+    }
+    &-middle{
+        width: 100%;
+        background-color: $color-shadow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+
+        &-all{
+            width: 65%;
+            display: flex;
+            justify-content:space-around;
+            &-first{
+                text-align: center;
+                
+                &-h3{
+                    font-family: $font-base;
+                    font-size: 18px;
+                    color: $color-primary;
+                    margin-top: 8px;
+                    
+                    &:after{
+                        content: "";
+                        border-bottom: 2px solid $color-secondary;
+                        width: 70px;
+                        display: block;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        margin-left: 35px;
+                    }
+                }
+                &-p{
+                    font-family: $font-base;
+                    font-size: 16px;
+                    color: $color-primary;
+                }
+            }
+            &-second{
+                text-align: center;
+                
+                &-h3{
+                    font-family: $font-base;
+                    font-size: 18px;
+                    color: $color-primary;
+                    margin-top: 8px;
+                    
+                    &:after{
+                       content:"";
+                        border-bottom: 2px solid $color-secondary;
+                        width: 70px;
+                        display: block;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        margin-left: 33px;
+                    }
+                }
+                &-p{
+                    font-family: $font-base;
+                    font-size: 16px;
+                    color: $color-primary;
+                }
+            }
+            &-third{
+                text-align: center;
+                
+                &-h3{
+                    font-family: $font-base;
+                    font-size: 18px;
+                    color: $color-primary;
+                   
+                    
+                    &:after{
+                        content: "";
+                        border-bottom: 2px solid $color-secondary;
+                        width: 70px;
+                        display: block;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        margin-left: 35px;
+                    }
+                }
+                &-p{
+                    font-family: $font-base;
+                    font-size: 16px;
+                    color: $color-primary;
+                }
+            }
+            &-fourth{
+                text-align: center;
+                
+                &-h3{
+                    font-family: $font-base;
+                    font-size: 18px;
+                    color: $color-primary;
+                    margin-top: 8px;
+                    
+                    &:after{
+                        content: "";
+                        border-bottom: 2px solid $color-secondary;
+                        width: 70px;
+                        display: block;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        margin-left: 49px;
+                    }
+                }
+                &-p{
+                    font-family: $font-base;
+                    font-size: 16px;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+    &-bottom{
+        text-align: center;
+        margin-top: 35px;
+        
+
+        &-button{
+            padding: 13px 90px;
+            font-family: $font-base;
+            color: $color-secondary;
+            font-size: 36px;
+            background-color: $color-background;
+            border: 0.75px solid $color-primary;
+        }
+    }
+}
