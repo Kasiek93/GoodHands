@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Decoration from '../assets/Decoration.svg';
+import decoration from '../assets/decoration.svg';
 
 
 const CreateAccount = () => {
@@ -8,7 +8,7 @@ const CreateAccount = () => {
         <section className="login">
             <div className="login-title">
                 <h3 className="login-title-h3">Załóż konto</h3>
-                <img src={Decoration} alt="Decoration"></img>
+                <img src={decoration} alt="Decoration"></img>
             </div>
             <form className="login-form">
                 <div className="login-form-first">

@@ -1,18 +1,18 @@
 import React from 'react';
-import ColumnsBackground from '../../../assets/ColumnsBackground.png';
+import columnsBackground from '../../../assets/columnsBackground.png';
 
 const HomeThreeColumns = () => {
     return (
         <section className="columns">
             <div className="columns-background">
-                <img src={ColumnsBackground} alt="background" className="columns-background-img"></img>
+                <img src={columnsBackground} alt="background" className="columns-background-img"></img>
             </div>
             <div className="columns-everything">
                 <div className="columns-everything-first">
                     <h2 className="columns-everything-first-h2">10</h2>
                     <h3 className="columns-everything-first-h3">ODDANYCH WORKÓW</h3>
                     <p className="columns-everyting-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
-                        elementuma. Aliquam erat volutpat.</p>
+                        elementuma. Aliquam erat volutpat.</p> 
                 </div>
                 <div className="columns-everything-second">
                     <h2 className="columns-everything-second-h2">5</h2>
