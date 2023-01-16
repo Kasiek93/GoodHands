@@ -19,6 +19,8 @@ function App() {
                 <Route path="/" element={<HomeHeader />} />
                 <Route path="/logowanie" element={<Login />} />
                 <Route path="/rejestracja" element={<CreateAccount />} />
+                <Route path="/oddaj-rzeczy" element={<Login />} />
+               
                 
                     
                     

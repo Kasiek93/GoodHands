@@ -1,0 +1,186 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    &-left{
+        width: 100%;
+        object-fit: cover;
+        &-img{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+            display: block;
+            background-color: white 0% 0% no-repeat padding-box;
+            opacity: 0.3;
+        }
+    }
+    &-right{
+        position: absolute;
+        right: 236px;
+        text-align: center;
+        top: 90px;
+        &-h3{
+            font-family: $font-base;
+            font-size: 38px;
+            color: $color-primary;
+            letter-spacing: -0.76px;
+            margin-bottom: 39px;
+        }
+    }
+    &-form{
+        position: absolute;
+        right: 175px;
+        text-align: center;
+        top: 250px;
+        &-all{
+            display: flex;
+            &-name{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-right: 20px;
+                &-label{
+                    font-family: $font-base;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                }
+                &-input{
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    color: $color-input;
+                    font-family: $font-base;
+                    font-size: 18px;
+                    &-invalid{
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 2px solid red;
+                        margin-bottom: 12px;
+                        padding-bottom: 7px;
+                        font-family: $font-base;
+                        font-size: 18px;
+                    }
+                }
+            }
+            &-email{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                &-label{
+                    font-family: $font-base;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                }
+                &-input{
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    color: $color-input;
+                    font-family: $font-base;
+                    font-size: 18px;
+                    &-invalid{
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 2px solid red;
+                        margin-bottom: 12px;
+                        padding-bottom: 7px;
+                        font-family: $font-base;
+                        font-size: 18px;
+                    } 
+                }
+            }
+            &-message{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-top: 40px;
+                &-label{
+                    font-family: $font-base;
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                }
+                &-textarea{
+                    border-top: none;
+                    border-right: none;
+                    border-left: none;
+                    color: $color-primary;
+                    font-family: $font-base;
+                    font-size: 18px;
+                    overflow: hidden;
+                    resize: none;
+                    border-bottom: 2px solid $color-primary;
+                    &-invalid{
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 2px solid red;
+                        margin-bottom: 12px;
+                        padding-bottom: 7px;
+                        font-family: $font-base;
+                        overflow: hidden;
+                        resize: none;
+                        font-size: 18px;
+                    } 
+                }
+            }
+            &-button{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 40px;
+
+                &-send{
+                    font-family: $font-base;
+                    font-size: 18px;
+                    color: $color-input;
+                    background-color: white;
+                    border: 0.75px solid #3C3C3C;
+                    padding: 13px 52px;
+                }
+            }
+        }
+    }
+    &-footer{
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 22px;
+        &-rights{
+            display: flex;
+            justify-content: flex-end;
+            width: 65%;
+            font-family: $font-base;
+            font-size: 18px;
+            color: $color-primary;
+        }
+        &-icons{
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+
+            &-fb{
+                margin-right: 20px;
+            }
+            &-insta{
+                margin-right: 140px;
+                
+            }
+        }
+    }
+}
+.error-text{
+    color: red;
+    
+}

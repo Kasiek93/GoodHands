@@ -23,12 +23,11 @@ const HomeNav = () => {
                 <Link to="/" className="nav-bar-b">Start</Link>
                 <Scroll
                
-                    to="start"
+                    to="steps"
                     {...options}
                     >O co chodzi?</Scroll>
                     
                 <Scroll
-
                     to="about"
                     {...options}
                     >O nas</Scroll>
@@ -40,12 +39,9 @@ const HomeNav = () => {
                     duration={500}
                     className="nav-bar-b">Fundacja i organizacje</Scroll>
                 <Scroll
-                    activeClass="active"
                     to="contact"
-                    spy={true}
-                    offset={500}
-                    duration={500}
-                    className="nav-bar-b">Kontakt</Scroll>
+                    {...options}
+                   >Kontakt</Scroll>
             </ul>
         </div>
     )

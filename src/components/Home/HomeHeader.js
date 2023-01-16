@@ -5,6 +5,7 @@ import Buttons from '../Buttons/Buttons';
 import HomeAboutUs from './HomeAboutUs/HomeAboutUs';
 import HomeThreeColumns from './HomeThreeColumns/HomeThreeColumns';
 import HomeFourSteps from './HomeFourSteps/HomeFourSteps';
+import HomeContact from './HomeContact/HomeContact';
 
 
 
@@ -24,6 +25,7 @@ const HomeHeader = () => {
             <HomeThreeColumns />
             <HomeFourSteps />
             <HomeAboutUs />
+            <HomeContact />
             
 
         </section >
