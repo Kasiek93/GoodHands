@@ -108,7 +108,7 @@ const HomeContact = (props) => {
                             onBlur={handleNameInputBlur}
                         />
                         {nameInputInvalid && (
-                            <p className="error-text">Podane imnię jest nieprawidlowe!</p>
+                            <p className="error-text">Podane imię jest nieprawidlowe!</p>
                         )}
                     </div>
                     <div className="contact-form-all-email">

@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import decoration from '../../../assets/decoration.svg';
 import icon1 from '../../../assets/icon1.svg';
 import icon2 from '../../../assets/icon2.svg';
@@ -35,9 +37,12 @@ const HomeFourSteps = () => {
                     </div>
                 </div>
             </div>
-            <div className="steps-bottom">
-                <button className="steps-bottom-button">ODDAJ <br /> RZECZY</button>
-            </div>
+            <div >
+                <Link to="/logowanie">
+                <button>
+                    ODDAJ <br /> RZECZY</button>  </Link>
+                    </div>
+            
         </section>
 
 
