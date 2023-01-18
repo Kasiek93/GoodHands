@@ -56,15 +56,15 @@ const HomeContact = (props) => {
 
     const handleForm = (event) => {
         event.preventDefault();
-        const data = { Name, Email, Message };
+        const data = { name: Name, email: Email, message: Message };
         fetch("https://fer-api.coderslab.pl/v1/portfolio/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ data })
+            body: JSON.stringify( data )
         }).then((response) => (response.json()
-        ).then((data) => {
+        ).then((response) => {
             if (response.ok) {
                 console.log("success");
                 alert("Wiadomość została wysłana");
