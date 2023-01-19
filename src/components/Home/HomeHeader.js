@@ -6,6 +6,7 @@ import HomeAboutUs from './HomeAboutUs/HomeAboutUs';
 import HomeThreeColumns from './HomeThreeColumns/HomeThreeColumns';
 import HomeFourSteps from './HomeFourSteps/HomeFourSteps';
 import HomeContact from './HomeContact/HomeContact';
+import HomeHelps from './HomeHelps/HomeHelps';
 
 
 
@@ -25,6 +26,7 @@ const HomeHeader = () => {
             <HomeThreeColumns />
             <HomeFourSteps />
             <HomeAboutUs />
+            <HomeHelps />
             <HomeContact />
             
 
